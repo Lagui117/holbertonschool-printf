@@ -1,0 +1,18 @@
+# _printf - Projet Holberton School
+
+## Description
+
+Ce projet a pour but de recréer une version simplifiée de la fonction `printf` de la bibliothèque standard du langage C.  
+Dans **cette première étape (exercice 0)**, la fonction `_printf` doit gérer uniquement trois spécificateurs de format :  
+- `%c` → afficher un caractère (`char`)
+- `%s` → afficher une chaîne de caractères (`char *`)
+- `%%` → afficher un signe pourcentage (`%`)
+
+La fonction doit écrire sur la sortie standard (`stdout`) en utilisant uniquement la fonction système `write` et retourner le nombre total de caractères affichés (hors caractère nul `\0`).
+
+---
+
+## Prototype
+
+```c
+int _printf(const char *format, ...);
